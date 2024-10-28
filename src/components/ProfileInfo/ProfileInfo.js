@@ -5,7 +5,7 @@ const ProfileInfo = ({ darkMode }) => {
     return (
         <View style={[styles.container, { backgroundColor: darkMode ? '#222' : '#f0f0f0' }]}>
             <Image
-                source={require('../../../assets/janjan.jpg')} // Update this line to use your local image
+                source={require('../../../assets/janjan.jpg')} 
                 style={styles.profileImage}
             />
             <Text style={[styles.name, { color: darkMode ? '#fff' : '#000' }]}>Jan Fredrick Arriesgado</Text>
